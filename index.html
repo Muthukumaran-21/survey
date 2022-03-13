@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+    <link rel="icon"
+        href="https://png.pngtree.com/png-clipart/20200225/original/pngtree-initials-m-logo-vector-circle-letter-m-logo-png-image_5284792.jpg">
+</head>
+
+<body style="background-color: powderblue;">
+    <form action="https://www.google.com">
+        <fieldset>
+            <legend>
+                <h1>Survey Form</h1>
+            </legend>
+            <br>
+            <label for="name">Name &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="name" placeholder="Name" required autofocus><br><br>
+            <label for="dept">Department</label>
+            <input id="dept" required list="dep" placeholder="Department">
+            <datalist id="dep">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+                <option value="CIVIL">CIVIL</option>
+            </datalist>
+            <br><br>
+            <label for="year">Year &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="year" required placeholder="Year"><br><br>
+            <label for="feed">Feedback &nbsp;&nbsp;</label>
+            <textarea id="feed" cols="30" rows="3" required placeholder="Give your feedbacks..."></textarea><br><br>
+            <input type="submit"value="Submit">
+            <input type="reset" id="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
